@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: center;
+}
+
+.navbar{
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagen{
+    width: 160px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    padding: 15px;
+}
+
+li a:hover{
+    background: rgb(253, 73, 73);
+    transition: 0.5s;
+}
+ .navbar a:hover{
+    color :black
+ }
+ 
+ .content{
+    width: 100%;
+    position: absolute;
+    color: black;
+    top:45%;
+    transform: translateY(-50%);
+    text-align: center;
+ }
+
+ .content h1{
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: 800;
+ }
+ 
+ .imagen1{
+    width: 1360px;
+    height: 660px;
+ }
+
+ .banner .imagen1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+ .link{
+    margin: 50px;
+    text-align: start;
+    color: black;
+
+ }
+
+ .parrafo{
+    margin: 20px;
+    margin-right: 500px;
+
+ }
+
+ .hola{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    margin-left: 900px;
+ }
+
+ .final{
+    background-color: rgb(19, 0, 0);
+    height: 100px;
+    color: white;
+    text-align: center;
+ }
+
+ .logohtml{
+    width: 70px;
+ }
